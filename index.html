@@ -1,177 +1,193 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
       <link rel="stylesheet" href="styles/homepage.css">
-    </head>
-    <body>
+      <title>ElCare</title>
+  </head>
+  <body>
 
-<!-- Bouncing preloader -->
-      <div class="loader_main">
-        <div class="loader">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-<!-- preloader timeout -->
-      <script type="text/javascript">
-      setTimeout(function(){
-        $('.loader_main').fadeToggle();
-      },3000)
-      </script>
-
-      <!------------------ header section starts  ----------------->
-      <header class="header">
-        <a href="#" class="logo"><i class="fas fa-magic"></i>ElCare.</a>
-        <div class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">DASHBOARD</a></li>
-                <li><a href="html/shop.html">SHOP</a></li>
-                <li><a href="html/login.html">SIGN IN</a></li>
-            </ul>
-        </nav>
-     </header>
-<!---------------------- header section ends -------------------->
-
-<!------------------- home section starts -------------------- -->
-  <section id="home" class="home">
-
-      <h1 class="banner">An app that cares</h1>
-      <br>
-      <br>
-      <h3 class="slogan">ElCare is an all-in-one digital support platform designed to suit and tend to your health and daily needs, as your personalized digital helper. With multiple languages, regional and international,  ElCare helps the people all around the world to connect.</h3>
-      <br>
-      <a href="#"><button>Get started</button></a>
-
-      <div class="wave wave1"></div>
-      <div class="wave wave2"></div>
-      <div class="wave wave3"></div>
-
-  </section>
-<!-- home section ends -->
-
-<!-- about section starts  -->
-  <section id="about" class="about">
-
-      <h1 class="heading">about us</h1>
-      <div class="row">
-          <div class="content">
-              <h3>Lorem Ipsum Dolor Sit Amet, Consectetur</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea amet iure deserunt doloremque voluptate distinctio rerum! Quas sunt inventore illum facere minus voluptas fugit, magni quidem cumque! Animi, illo magni.</p>
-              <a href="#"><button class="btn">read more</button></a>
+<!--------------navbar---------------->
+    <section>
+      <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="#">ElCare</a>
           </div>
-          <div class="image">
-              <img src="images/home4.jpg" alt="">
-          </div>
-      </div>
 
-  </section>
-<!-- about section ends  -->
-
-<!-- key features starts  -->
-  <section id="service" class="service">
-
-  <h1 class="heading1">key features</h1>
-  <div class="row">
-    <img src="images/medicine.png" height="380" width="560">
-  <div class="content">
-      <h3>Keeping your health in check</h3>
-      <p>Exercise regularly with the help of a customized schedule and fun challenges and tasks in the Fitness Corner and keep a track of your medications. Get regularly reminded for water intervals.</p>
-  </div>
-  </div>
-
-  <div class="row">
-  <div class="content">
-      <h3>Know what’s new </h3>
-      <p>Stay updated about the events happening around the world with headlines just one click away. </p>
-  </div>
-
-      <img src="images/news.jpg" height="340" width="500">
-  </div>
-  
-  <div class="row">
-  
-      <img src="images/grocery1.png" height="340" width="500">
-  <div class="content">
-      <h3>Grocery and medicines at your doorstep</h3>
-      <p>ElCare makes it easier for you to buy groceries and medicines online. Step into the store or pharmaceutical shop with just one touch.</p>
-  </div>
-  </div>
-
-  </section>
-<!-- key features ends -->
-
-<!----------------footer----------------->
-<!-- Footer -->
-
-    <section class="footer">
-      <div class="main-content">
-        <div class="left box">
-          <h2>About us</h2>
-          <div class="content">
-            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Ea Amet Iure Deserunt Doloremque Voluptate Distinctio Rerum! Quas Sunt Inventore Illum Facere Minus Voluptas Fugit, Magni Quidem Cumque! Animi, Illo Magni.</p>
-            <div class="social">
-              <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
-              <a href="#"><span class="fab fa-twitter"></span></a>
-              <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
-              <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
             </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="html/shop.html">Shop</a></li>
+            <li><a href="html/login.html">Sign In</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
           </div>
         </div>
-
-        <div class="center box">
-          <h2>Address</h2>
-          <div class="content">
-            <div class="place">
-              <span class="fas fa-map-marker-alt"></span>
-              <span class="text">Uttar Pradesh, India</span>
-            </div>
-            <div class="phone">
-              <span class="fas fa-phone-alt"></span>
-              <span class="text">+999-9999999</span>
-            </div>
-            <div class="email">
-              <span class="fas fa-envelope"></span>
-              <span class="text">elcaresupport@gmail.com</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="right box">
-          <h2>Contact us</h2>
-          <div class="content">
-            <form action="#">
-              <div class="email">
-                <div class="text">Email *</div>
-                <input type="email" required>
-              </div>
-              <div class="msg">
-                <div class="text">Message *</div>
-                <textarea rows="2" cols="25" required></textarea>
-              </div>
-              <div class="btns">
-                <button type="submit">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
+      </nav>
     </section>
+<!--------------navbarends---------------->
+  <!-- about section starts  -->
+    <section id="about" class="about">
+      <h1 class="heading1">about us</h1>
+      <div class="row">
 
-<!-- --------------------Footer ends---------------->
+        <div class="content">
+          <h3>An app that cares</h3>
+          <p>ElCare is an all-in-one digital support platform designed to suit and tend to your health and daily needs, as your personalized digital helper. With multiple languages, regional and international,  ElCare helps the people all around the world to connect</p>
+          <a href="#"><button class="btn">read more</button></a>
+        </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="scripts/homepage.js"></script>
-    </body>
+        <div class="image">
+          <img src="images/team.svg" alt="">
+        </div>
+      </div>
+    </section>
+  <!-- about section ends  -->
+
+  <!-- key features starts  -->
+    <section id="service" class="service">
+      <h1 class="heading">Key Features</h1>
+      <div class="row">
+        <div class="image">
+         <img src="images/stats.svg" alt="">
+        </div>
+        <div class="content">
+          <h3>Keeping Health In Check</h3>
+          <p>Exercise Regularly With The Help Of A Customized Schedule And Fun Challenges And Tasks In The Fitness Corner And Keep A Track Of Your Medications. Get Regularly Reminded For Water Intervals.</p>
+          <a href="#"><button class="btn">read more</button></a>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="content">
+        <h3>Grocery And Medicines</h3>
+        <p>ElCare Makes It Easier For You To Buy Groceries And Medicines Online. Step Into The Store Or Pharmaceutical Shop With Just One Touch.</p>
+        <a href="#"><button class="btn">read more</button></a>
+      </div>
+      <div class="image">
+        <img src="images/grocery.svg" alt="">
+      </div>
+    </div>
+
+    <div class="row">   
+      <div class="image">
+        <img src="images/connect.svg" alt="">
+      </div>
+      <div class="content">
+        <h3>Connect with people</h3>
+        <p>Share your fitness progress with your friends and family. Share your location with just one click in case of emergency.</p>
+        <a href="#"><button class="btn">read more</button></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="content">
+        <h3>24 X 7 help</h3>
+        <p>Get a list of all doctors or hospitals/clinics around you, anywhere and anytime, in your phone.</p>
+        <a href="#"><button class="btn">read more</button></a>
+      </div>
+      <div class="image">
+        <img src="images/contact.svg" alt="">
+      </div>
+    </div>
+    </section>
+    <!-- key features ends -->
+
+    <!-- team section starts  -->
+    <section id="team" class="team">
+      <h1 class="heading">our team</h1>
+      <div class="row">
+      <div class="card">
+        <div class="image">
+          <img src="" alt="">
+        </div>
+        <div class="info">
+          <h3>ABC</h3>
+          <span>App interface </span>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="" alt="">
+        </div>
+        <div class="info">
+          <h3>ABC</h3>
+          <span>Web Development</span>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="" alt="">
+        </div>
+        <div class="info">
+          <h3>ABC</h3>
+          <span>Graphic design</span>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- team section ends -->
+
+    <!--------download------------->
+    <div class="banner">
+      <div class="bannerText" data-aos="fade-right" data-aos-duration="1000">
+          <h1>Download the ElCare App Today. <br> <span style="font-size:1.6vw;font-weight:normal"  class="bannerInnerText">
+              Stay Updated and get all your fitness related needs taken care of!
+          </span> </h1>
+          <a href="#"> <img src="images/android.png" alt=""> </a>
+          <a href="#"> <img src="images/healthcare.png" alt=""> </a>
+      </div>
+      <div class="bannerImg" data-aos="fade-up" data-aos-duration="1000">
+          <img src="images/mobileapp.png" alt="">
+      </div>
+    </div>
+    <!---------download ends---------->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="scripts/homepage.js"></script>
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+  </body>
 </html>
